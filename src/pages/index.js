@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import Link from "next/link";
 import Header from "@/components/header";
-import homepageStyle from "@/styles/Home.module.css";
+import homepageStyle from "@/styles/home.module.css";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 import TyreCard from "@/components/tyreCard";
