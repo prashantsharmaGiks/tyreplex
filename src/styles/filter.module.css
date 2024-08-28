@@ -1,0 +1,84 @@
+.filterSortContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filters,
+.sorting {
+  display: flex;
+  gap: 10px;
+}
+
+.filters select,
+.sorting select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* ------------------------media query------------------ */
+
+@media (min-width: 1921px) and (max-width: 2561px) {
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1282.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 1032.98px) {
+}
+
+@media (max-width: 1024.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 800.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .sorting {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 630.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 548.98px) {
+}
+
+@media (max-width: 516.98px) {
+}
+
+@media (max-width: 483.98px) {
+}
+
+@media (max-width: 440.98px) {
+}
+
+@media (max-width: 410.98px) {
+}
+
+@media (max-width: 390.98px) {
+}
+
+@media (max-width: 380.98px) {
+}

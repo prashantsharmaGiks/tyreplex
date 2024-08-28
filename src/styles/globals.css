@@ -1,0 +1,262 @@
+/* ---------------------fontfamily-------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+.latoLight {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.latoRegular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.latoBold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppinsLight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppinsRegular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppinsMedium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppinsSemibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppinsBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppinsExtrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* ---------------------------commonheadings and buttons---------------------- */
+
+.commonHeading,
+.commonHeadingWhite {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #253241;
+}
+.commonHeading span {
+  color: #d22321;
+}
+.commonHeadingWhite {
+  color: #fff !important;
+}
+.commonPara,
+.commonParaDark {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+}
+.commonParaDark {
+  color: #253241;
+}
+
+.commonBtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  overflow: hidden;
+  background: #d22321;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: none;
+}
+.commonBtn:before,
+.commonBtn:after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: #cd4341;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.commonBtnWhite {
+  color: #fff;
+
+  background: transparent !important;
+}
+.commonBtnWhite:before,
+.commonBtnWhite:after {
+  background: #fff !important;
+  color: #04a7e4 !important;
+}
+.commonBtn:hover,
+.commonBtn:focus {
+  text-decoration: none;
+  color: #fff;
+}
+.commonBtnWhite:hover,
+.commonBtnWhite:focus {
+  color: #fff !important;
+}
+.commonBtn:after {
+  transition: transform 0.8s;
+  transform: translate3d(0, -105%, 0);
+  opacity: 1;
+}
+.commonBtn:before {
+  transform: translate3d(0, 105%, 0);
+  opacity: 0;
+}
+.commonBtn:hover:after {
+  transition: none;
+  transform: translateZ(0);
+  opacity: 0;
+}
+.commonBtn:hover:before {
+  transition: transform 0.7s;
+  transform: translateZ(0);
+  opacity: 1;
+}
+
+.commonReadMore {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #cd4341;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* ------------------------media query------------------ */
+
+@media (min-width: 1921px) and (max-width: 2561px) {
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1282.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .commonBtn {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1104.98px) {
+  .commonBtn {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1032.98px) {
+}
+
+@media (max-width: 1024.98px) {
+}
+
+@media (max-width: 991.98px) {
+  .commonHeading,
+  .commonHeadingWhite {
+    font-size: 40px;
+  }
+  .commonPara,
+  .commonParaDark {
+    font-size: 14px;
+  }
+  .navbar-nav {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 800.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .commonHeading,
+  .commonHeadingWhite {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .commonPara,
+  .commonParaDark {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 630.98px) {
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 548.98px) {
+}
+
+@media (max-width: 516.98px) {
+}
+
+@media (max-width: 483.98px) {
+}
+
+@media (max-width: 440.98px) {
+}
+
+@media (max-width: 410.98px) {
+}
+
+@media (max-width: 390.98px) {
+}
+
+@media (max-width: 380.98px) {
+}

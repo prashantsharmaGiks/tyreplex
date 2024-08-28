@@ -1,0 +1,145 @@
+.header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  padding-right: 20px !important;
+  background-color: #253241;
+}
+.navbarBrand {
+  background-color: #fff;
+  padding: 20px 25px;
+}
+
+.headerNavLink {
+  color: #fff !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 25px;
+  margin: 0 10px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+
+.header :global(.dropdown-menu) {
+  background-color: #fff !important;
+  box-shadow: 0 0 15px rgba(14, 14, 14, 0.2);
+}
+.header :global(.dropdown-item) {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 10px;
+}
+.header :global(.dropdown-item):hover {
+  background: #d22321 !important;
+  color: #fff !important;
+}
+.dropdownListHeading {
+  font-family: "Lato", sans-serif;
+  font-weight: 700 !important;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+/* ------------------------media query------------------ */
+
+@media (min-width: 1921px) and (max-width: 2561px) {
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1282.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .headerNavLink {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1104.98px) {
+  .headerNavLink {
+    font-size: 12px;
+    margin: 0 3px;
+  }
+}
+@media (max-width: 1032.98px) {
+}
+
+@media (max-width: 1024.98px) {
+}
+
+@media (max-width: 991.98px) {
+  .header :global(.commonBtn) {
+    margin: 0 0 20px 10px;
+  }
+  .header :global(.navbar-toggler) {
+    background-color: #d22321;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+  }
+
+  .header :global(.navbar-toggler-icon) {
+    background-image: none !important;
+    display: flex;
+    align-items: center;
+  }
+  .headerNavLink {
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 8px 10px;
+  }
+  .dropdownListHeading {
+    text-align: left;
+    padding-left: 10px;
+  }
+  .header :global(.dropdown-menu) {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 630.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .navbarBrand img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 548.98px) {
+}
+
+@media (max-width: 516.98px) {
+}
+
+@media (max-width: 483.98px) {
+}
+
+@media (max-width: 440.98px) {
+}
+
+@media (max-width: 410.98px) {
+}
+
+@media (max-width: 390.98px) {
+}
+
+@media (max-width: 380.98px) {
+}
