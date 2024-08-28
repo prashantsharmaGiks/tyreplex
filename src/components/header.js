@@ -1,5 +1,5 @@
 import React from "react";
-import headerStyle from "../styles/Header.module.css";
+import headerStyle from "../styles/header.module.css";
 import Link from "next/link";
 import { LuUser2 } from "react-icons/lu";
 import { HiMiniBars3 } from "react-icons/hi2";
